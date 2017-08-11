@@ -165,7 +165,12 @@
 
     var afterInstall = getParameterByName('after_install');
     if(afterInstall)
+    {
+        var machineId = getParameterByName('machine_id');
+        analytics.alias(machineId);
         analytics.track('Installation');
+    }
+
 
 </script>
 

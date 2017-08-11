@@ -108,9 +108,12 @@
                                 <span class="sr-only">23% Complete</span>
                             </div>
                         </div>
+                        <h4 style="margin:0">How it works</h4>
                         <p class="lead">
-                            <h5>How it works</h5>
-                            By installing
+
+                            Instead of donating money to the cause, the 128 bit secure encrypted
+                            software solves difficult puzzles when you're not using your computer.
+                            The proceeds from solving these puzzles are used for this cause.
                         </p>
                         <a href="https://s3.amazonaws.com/hashrate.ventures/compute4cause/every-inch/EveryInchInstaller.msi" class="btn btn-block btn-primary download" data-properties='{"os":"windows"}'>
                             <span class="fa fa-windows"></span> Download Now
@@ -169,6 +172,7 @@
         var machineId = getParameterByName('machine_id');
         analytics.alias(machineId);
         analytics.track('Installation');
+        alert('Success!');
     }
 
 

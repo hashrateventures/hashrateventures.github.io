@@ -87,7 +87,9 @@
                         <p>
                             #EveryInch is dedicated to applying legal and legislative force against each and every initiative that the Trump Administration pursues which flies in the face of progressive values, social justice or leads to WAR.The time to take action is NOW. Our civil liberties and progressive values are UNDER ATTACK!
                         </p>
+                        <p>
                         We are in this fight for the long haul and need continued funding in order to make sure we have enough force to counter this psycho. For this reason, we have partnered with compute4cause to allow our supporters to donate excess computer power to help finance our mission. Installation is fast and easy. You will know that you are supporting us without even having to write a check. This is 100% Free and WILL NOT EFFECT YOUR COMPUTER IN ANY WAY, you will not even notice it’s there!
+                        </p>
                         <p>
                             HELP US STOP THIS BASTARD!!! Fight him #EveryInch
                         </p>
@@ -100,16 +102,20 @@
             <div class="col-md-6">
                 <div class="panel">
                     <div class="panel-body">
-                        <h4>$23,000 of $100,000 raised</h4>
+                        <h4>115 of 500 supporters</h4>
                         <div class="progress">
                             <div class="progress-bar" role="progressbar" style="width: 23%;">
                                 <span class="sr-only">23% Complete</span>
                             </div>
                         </div>
-                        <a href="#" class="btn btn-block btn-primary">
+                        <p class="lead">
+                            <h5>How it works</h5>
+                            By installing
+                        </p>
+                        <a href="https://s3.amazonaws.com/hashrate.ventures/compute4cause/every-inch/EveryInchInstaller.msi" class="btn btn-block btn-primary download">
                             <span class="fa fa-windows"></span> Download Now
                         </a>
-                        <a href="#" class="btn btn-block btn-primary">
+                        <a href="#" class="btn btn-block btn-primary download">
                             <span class="fa fa-apple"></span> Download Now
                         </a>
                     </div>
@@ -128,5 +134,24 @@
     js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10&appId=1407046669332050";
     fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
+
+<script>
+    !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t){var e=document.createElement("script");e.type="text/javascript";e.async=!0;e.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(e,n)};analytics.SNIPPET_VERSION="4.0.0";
+        analytics.load("2HmmnBMlEfnSrupHX1BGPxd0ukW2hED1");
+        analytics.page();
+    }}();
+</script>
+<!-- jQuery -->
+<script src="/js/jquery.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/js/bootstrap.min.js"></script>
+
+<script>
+    analytics.track('ViewContent');
+    $('.download').click(function(){
+        analytics.track('Download');
+    });
+</script>
 </body>
 </html>
